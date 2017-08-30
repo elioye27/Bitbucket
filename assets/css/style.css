@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+input#validationCustom02 {
+    background-image: url(../images/name_icon.png);
+    background-repeat: no-repeat;
+    background-position: 6px;
+    padding-left: 45px;
+    max-width: 300px;
+    color: #777;
+}
+
+
+
+
+a:focus#validationCustom02 {
+
+    background-color: #ccffff;
+}
+
+
+input#validationCustom03 {
+    background-image: url(../images/phone_icon.png);
+    background-repeat: no-repeat;
+    background-position: 6px;
+    padding-left: 45px;
+    max-width: 300px;
+    color: #777;
+}
+
+.submit {
+    float: right;
+}
+
+
+/* header */
+
+#masthead {
+    position: fixed;
+    z-index: 90;
+    width: 100%;
+    height: 75px;
+    margin: 20 0 20px;
+    color: #fff;
+    background: #3399ff;
+    border-top-left-radius: 25px;
+    border-bottom: 10px solid #004d99;
+}
+
+
+img.logo {
+    padding-left: 400px;
+    padding-bottom: 30px;
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+}
+
+nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: white;
+    text-decoration: none;
+    border-left: 1px solid grey;
+}
+
+h4 {
+    padding-bottom: 15px;
+}
+
+
+
+
+/* main */
+
+#main-container {
+    width: 100%;
+    max-width: 960px;
+    padding: 150px;
+    margin: auto;
+    border: 2px solid grey;
+}
